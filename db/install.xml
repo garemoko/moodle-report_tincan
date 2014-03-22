@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<XMLDB PATH="report/tincan/db" VERSION="20101203" COMMENT="XMLDB file for Moodle report/tincan"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="../../../lib/xmldb/xmldb.xsd"
+>
+  <TABLES>
+    <TABLE NAME="report_tincan" COMMENT="tincan table">
+      <FIELDS>
+        <FIELD NAME="id" TYPE="int" LENGTH="10" NOTNULL="true" UNSIGNED="true" SEQUENCE="true"/>
+		<FIELD NAME="tincanlrsendpoint" TYPE="char" LENGTH="255" NOTNULL="true" SEQUENCE="false" COMMENT="LRS endpoint" />
+		<FIELD NAME="tincanlrslogin" TYPE="char" LENGTH="255" NOTNULL="true" SEQUENCE="false" COMMENT="LRS credentials, login" />
+		<FIELD NAME="tincanlrspass" TYPE="char" LENGTH="255" NOTNULL="true" SEQUENCE="false" COMMENT="LRS credentials, password" />
+		<FIELD NAME="tincanlrsversion" TYPE="char" LENGTH="255" NOTNULL="true" SEQUENCE="false" COMMENT="Specification version" />
+      </FIELDS>
+      <KEYS>
+        <KEY NAME="primary" TYPE="primary" FIELDS="id"/>
+      </KEYS>
+    </TABLE>
+  </TABLES>
+</XMLDB>

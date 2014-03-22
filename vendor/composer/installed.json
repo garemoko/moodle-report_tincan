@@ -1,0 +1,49 @@
+[
+    {
+        "name": "rusticisoftware/tincan",
+        "version": "0.10.1",
+        "version_normalized": "0.10.1.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/RusticiSoftware/TinCanPHP.git",
+            "reference": "b3ad2d102f98c1a424af8d8bbb31705f0f42f629"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/RusticiSoftware/TinCanPHP/zipball/b3ad2d102f98c1a424af8d8bbb31705f0f42f629",
+            "reference": "b3ad2d102f98c1a424af8d8bbb31705f0f42f629",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.4.0"
+        },
+        "time": "2014-03-13 20:37:06",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "TinCan\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "Apache-2.0"
+        ],
+        "authors": [
+            {
+                "name": "Brian J. Miller",
+                "email": "brian.miller@tincanapi.com",
+                "role": "Developer"
+            }
+        ],
+        "description": "Tin Can API Library",
+        "homepage": "http://rusticisoftware.github.io/TinCanPHP/",
+        "keywords": [
+            "Experience API",
+            "e-learning",
+            "tin can",
+            "tincan",
+            "xAPI"
+        ]
+    }
+]
